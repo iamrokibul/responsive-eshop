@@ -1,0 +1,20 @@
+img{
+    width: 100%;
+}
+.mainmenu{
+    background-color: #FFFBF0;
+}
+.mainmenu #navbarSupportedContent ul li a{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 20px;
+}
+.slider-area div h1{
+    color: #FABE4C;
+    font-size: 50px;
+    font-weight: 900;
+}
+.slider-area div span{
+    display: block;
+    color: #363958;
+}
