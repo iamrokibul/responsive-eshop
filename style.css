@@ -1,13 +1,21 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header{
+    background-color: #FFFBF0;
+    padding-bottom: 150px;
+}
 img{
     width: 100%;
 }
-.mainmenu{
-    background-color: #FFFBF0;
+i.fas{
+    margin-right: 10px;
 }
-.mainmenu #navbarSupportedContent ul li a{
+.mainmenu ul li{padding: 5px 10px;}
+.mainmenu ul li a{
     font-size: 20px;
     font-weight: 700;
-    padding: 5px 20px;
+    color: #000;
 }
 .slider-area div h1{
     color: #FABE4C;
@@ -17,4 +25,108 @@ img{
 .slider-area div span{
     display: block;
     color: #363958;
+}
+.women_products h2, .men_products h2{
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.women_products div.card, .men_products div.card{
+    margin: 0 auto;
+    padding: 20px;
+    border: none;
+    width: 90%;
+}
+.women_products h5, .men_products h5{
+    font-weight: 700;
+}
+.women_products h3, .men_products h3{
+    color: #FABE4C;
+    font-weight: 700;
+}
+.women_products img, .men_products img{
+    width: 100%;
+    height:400px;
+    background-color: #ddd;
+    padding: 30px;
+}
+.advertisement_area{
+    margin-top: 100px;
+}
+.single_quote{
+    margin-bottom: 20px;
+}
+.single_quote img{
+    width: 90px;
+    height: 90px;
+    border: none;
+    margin-left: 15px;
+}
+.quote_text h5{
+    font-weight: 700;
+}
+.call_to_action{
+    margin: 70px 0;
+    background-color: #157347;
+    padding: 50px;
+    border-radius: 5px;
+}
+/*Mobile*/
+@media only screen and (min-width: 500px){
+    .mainmenu img{
+        width: 300px;
+    }
+    .slider-area div h1{
+        
+    }
+}
+
+
+/*Tablet*/
+@media only screen and (max-width: 768px){
+    .slider-area div h1{
+        margin-top: 20px;
+        font-size: 50px;
+    }
+    .advertisement_row{
+        flex-direction: column-reverse!important;
+    }
+    .single_quote.d-flex{
+        display: block;
+        padding: 30px;
+        text-align: center;
+    }
+    .quote_text h5 {
+        font-size: 30px;
+    }
+    .single_quote img {
+        width: 125px;
+        height: 120px;
+    }
+    .call_to_action{
+        text-align: center;
+    }
+    .call_to_action h2{
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+}
+
+/*Desktop*/
+@media only screen and (max-width: 992px){
+        .slider-area div h1{
+            margin-top: 20px;
+            font-size: 32px;
+        }
+        .advertisement_row{
+            flex-direction: column-reverse!important;
+        }
+        .quote_text h5 {
+            font-size: 30px;
+        }
+        .single_quote img {
+            width: 125px;
+            height: 120px;
+        }
+        
 }
